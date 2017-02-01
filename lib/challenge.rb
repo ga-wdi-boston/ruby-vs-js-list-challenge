@@ -1,8 +1,11 @@
 # Requirements
 
 # Add your function parameters between the parentheses.
-def any?()
-  # Your function body here.
+def any?(*list, &block)
+  if list.find(block)
+    true
+  end
+  false
 end
 
 # Add your function parameters between the parentheses.
