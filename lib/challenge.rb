@@ -1,13 +1,15 @@
 # Requirements
 
 # Add your function parameters between the parentheses.
-def any?()
-  # Your function body here.
+def any?(array, condition)
+  !array.empty?
+  array.each { |x| x == condition }
 end
 
 # Add your function parameters between the parentheses.
-def none?()
-  # Your function body here.
+def none?(array, condition)
+  array.empty?
+  array.each { |x| x != condition }
 end
 
 # Bonuses
