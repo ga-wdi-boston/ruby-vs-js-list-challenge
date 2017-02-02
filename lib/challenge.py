@@ -1,11 +1,9 @@
 # Requirements
 
-
 # Add your function parameters between the parentheses.
 def any():
     # Your function body here.
     return
-
 
 # Add your function parameters between the parentheses.
 def none():
