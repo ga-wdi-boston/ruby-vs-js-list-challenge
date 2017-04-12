@@ -1,13 +1,15 @@
 # Requirements
 
 # Add your function parameters between the parentheses.
-def any?()
-  # Your function body here.
+def any?(array, callback)
+  array2 = array.call(callback)
+  array2.any?
 end
 
 # Add your function parameters between the parentheses.
-def none?()
-  # Your function body here.
+def none?(array)
+  array2 = array.call(callback)
+  array2.none?
 end
 
 # Bonuses
