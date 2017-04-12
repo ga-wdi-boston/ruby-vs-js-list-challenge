@@ -36,6 +36,9 @@ Complete these exercises in both Ruby and JavaScript:
 -   [True for Any?](https://www.codewars.com/kata/enumerable-magic-number-2-true-for-any)
 -   [True for None?](https://www.codewars.com/kata/enumerable-magic-number-4-true-for-none)
 
+Create an any? (JS: any) function that accepts an array and a block (JS: function), and returns true if the block (/function) returns true for any item in the array. If the array is empty, the function should return false.
+
+
 ## Bonus
 
 Complete the previous exercises in Python. You will have to do this on your own,
