@@ -1,13 +1,26 @@
 # Requirements
 
 # Add your function parameters between the parentheses.
-def any?()
-  # Your function body here.
+def any?(arr)
+  arr.each do |i|
+    if arr[i] == true
+      return true
+    elsif arr.length.zero?
+      return false
+    else
+      return false
+    end
+  end
 end
 
 # Add your function parameters between the parentheses.
-def none?()
-  # Your function body here.
+def none?(arr)
+  arr.each do |i|
+    if arr[i] == true
+      return false
+    end
+  end
+  return false
 end
 
 # Bonuses
