@@ -1,14 +1,31 @@
 # Requirements
 
 # Add your function parameters between the parentheses.
-def any?()
-  # Your function body here.
+def any?(array, funct)
+  if array.length.zero?
+    puts false
+  end
+  0.upto(array.length-1) do |i|
+    if funct(array[i]) == true
+      puts true
+    end
+    false
+  end
 end
 
 # Add your function parameters between the parentheses.
-def none?()
-  # Your function body here.
+def none?(array, funct)
+  if array.length.zero?
+    puts true
+  end
+  0.upto(array.length-1) do |i|
+    if funct(array[i]) == true
+      puts false
+    end
+    true
+  end
 end
+
 
 # Bonuses
 
