@@ -1,14 +1,15 @@
 # Requirements
 
 # Add your function parameters between the parentheses.
-def any?()
-  # Your function body here.
+def any? (list, &block)
+    list.any?(&block)
 end
 
 # Add your function parameters between the parentheses.
-def none?()
-  # Your function body here.
+def none? (list, &block)
+    list.none?(&block)
 end
+
 
 # Bonuses
 
