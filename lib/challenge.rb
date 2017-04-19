@@ -6,7 +6,7 @@ def any?(array, funct)
     puts false
   end
   0.upto(array.length-1) do |i|
-    if funct(i) == true
+    if funct(array[i]) == true
       puts true
     end
     false
@@ -19,7 +19,7 @@ def none?(array, funct)
     puts true
   end
   0.upto(array.length-1) do |i|
-    if funct(i) == true
+    if funct(array[i]) == true
       puts false
     end
     true
